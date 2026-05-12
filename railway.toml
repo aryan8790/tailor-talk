@@ -1,0 +1,15 @@
+# railway.toml — deploys TWO services: backend + frontend
+
+[build]
+builder = "NIXPACKS"
+
+# ── Backend service ────────────────────────────────────────────────────────────
+# Set this in the Railway dashboard for the backend service:
+#   Start Command: uvicorn main:app --host 0.0.0.0 --port $PORT
+#   Root Directory: backend
+
+# ── Frontend service ───────────────────────────────────────────────────────────
+# Set this in the Railway dashboard for the frontend service:
+#   Start Command: streamlit run app.py --server.port $PORT --server.address 0.0.0.0
+#   Root Directory: frontend
+#   Env var: BACKEND_URL=<your-backend-railway-url>

@@ -1,0 +1,30 @@
+# Environment
+.env
+*.env
+
+# Service account key (NEVER commit this!)
+service_account.json
+*credentials*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
