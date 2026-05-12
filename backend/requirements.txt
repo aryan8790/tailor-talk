@@ -1,22 +1,14 @@
-fastapi==0.115.6
-uvicorn[standard]==0.32.1
-pydantic==2.10.3
-
-# LangChain core
-langchain==0.3.13
-langchain-core==0.3.28
-langchain-community==0.3.13
-
-# LLM providers — install the ones you need
-langchain-openai==0.2.14       # OpenAI / Azure
-langchain-groq==0.2.3          # Groq (llama3, mixtral)
-langchain-google-genai==2.0.8  # Gemini
-
-# Google Drive
-google-auth==2.37.0
-google-api-python-client==2.156.0
-google-auth-httplib2==0.2.0
-
-# Utilities
-python-dotenv==1.0.1
-httpx==0.28.1
+fastapi
+uvicorn[standard]
+pydantic
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langchain-groq
+langchain-google-genai
+google-auth
+google-api-python-client
+google-auth-httplib2
+python-dotenv
+httpx
